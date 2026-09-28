@@ -1,0 +1,71 @@
+{
+  "_readme": "Dit is de voorraadlijst van Jellema Auto's. Voeg een auto toe door een nieuw object aan de lijst hieronder toe te voegen, of verwijder een object om een verkochte auto te verwijderen. 'featured': true zet een auto ook op de homepage (maximaal de eerste 3 met featured:true worden getoond). Dit bestand direct bewerken is genoeg — de website leest het automatisch, geen andere aanpassingen nodig.",
+  "cars": [
+    {
+      "merk": "Volkswagen",
+      "model": "Golf 1.4 TSI",
+      "jaar": 2018,
+      "km": 89000,
+      "brandstof": "Benzine",
+      "transmissie": "Handgeschakeld",
+      "prijs": 12950,
+      "badge": "1e eigenaar",
+      "featured": true
+    },
+    {
+      "merk": "Renault",
+      "model": "Captur TCe 90",
+      "jaar": 2019,
+      "km": 64500,
+      "brandstof": "Benzine",
+      "transmissie": "Handgeschakeld",
+      "prijs": 14450,
+      "badge": "NAP aanwezig",
+      "featured": true
+    },
+    {
+      "merk": "Škoda",
+      "model": "Fabia 1.0 TSI",
+      "jaar": 2020,
+      "km": 41000,
+      "brandstof": "Benzine",
+      "transmissie": "Handgeschakeld",
+      "prijs": 13750,
+      "badge": "Pas binnen",
+      "featured": true
+    },
+    {
+      "merk": "Toyota",
+      "model": "Yaris Hybrid",
+      "jaar": 2019,
+      "km": 72000,
+      "brandstof": "Hybride",
+      "transmissie": "Automaat",
+      "prijs": 15950,
+      "badge": "Zuinig",
+      "featured": false
+    },
+    {
+      "merk": "Ford",
+      "model": "Focus Wagon 1.0 EcoBoost",
+      "jaar": 2017,
+      "km": 102000,
+      "brandstof": "Benzine",
+      "transmissie": "Handgeschakeld",
+      "prijs": 10450,
+      "badge": "Ruime kofferbak",
+      "featured": false
+    },
+    {
+      "merk": "Peugeot",
+      "model": "208 1.2 PureTech",
+      "jaar": 2021,
+      "km": 28500,
+      "brandstof": "Benzine",
+      "transmissie": "Handgeschakeld",
+      "prijs": 16750,
+      "badge": "Compact",
+      "featured": false
+    }
+  ]
+}

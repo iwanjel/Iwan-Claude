@@ -47,7 +47,7 @@
       <div class="container">
         <div class="notice-banner">
           <strong>Let op — voorbeeldaanbod</strong>
-          Onderstaande auto's zijn voorbeeldadvertenties ter illustratie van de opmaak. Vervang deze door de actuele voorraad (foto's, kenmerken en prijzen) voordat de website live gaat.
+          Onderstaande auto's komen uit <code>website/data/cars.json</code> en zijn nu nog voorbeeldadvertenties. Werk dat bestand bij met de actuele voorraad (auto toevoegen of verwijderen, geen HTML-kennis nodig) — de site en de homepage lezen het automatisch.
         </div>
 
         <div class="filter-bar" style="margin-top:var(--space-4);">
@@ -58,110 +58,7 @@
           <span class="filter-chip">Onder € 15.000</span>
         </div>
 
-        <div class="grid grid-3" data-reveal>
-          <!-- Voorbeeldadvertentie 1 -->
-          <article class="card">
-            <div class="car-card-media">
-              <span class="car-card-badge">1e eigenaar</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13l1.5-4.5A2 2 0 0 1 6.4 7h11.2a2 2 0 0 1 1.9 1.5L21 13"/><path d="M3 13h18v4a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1H7v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-4Z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
-            </div>
-            <div class="car-card-body">
-              <h3>Volkswagen Golf 1.4 TSI</h3>
-              <ul class="car-card-meta">
-                <li>2018</li><li>89.000 km</li><li>Benzine</li><li>Handgeschakeld</li>
-              </ul>
-              <div class="car-card-footer">
-                <span class="car-card-price">€ 12.950</span>
-                <a class="btn btn-primary" style="padding:0.55rem 1rem;" href="contact.html">Informeer</a>
-              </div>
-            </div>
-          </article>
-          <!-- Voorbeeldadvertentie 2 -->
-          <article class="card">
-            <div class="car-card-media">
-              <span class="car-card-badge">NAP aanwezig</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13l1.5-4.5A2 2 0 0 1 6.4 7h11.2a2 2 0 0 1 1.9 1.5L21 13"/><path d="M3 13h18v4a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1H7v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-4Z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
-            </div>
-            <div class="car-card-body">
-              <h3>Renault Captur TCe 90</h3>
-              <ul class="car-card-meta">
-                <li>2019</li><li>64.500 km</li><li>Benzine</li><li>Handgeschakeld</li>
-              </ul>
-              <div class="car-card-footer">
-                <span class="car-card-price">€ 14.450</span>
-                <a class="btn btn-primary" style="padding:0.55rem 1rem;" href="contact.html">Informeer</a>
-              </div>
-            </div>
-          </article>
-          <!-- Voorbeeldadvertentie 3 -->
-          <article class="card">
-            <div class="car-card-media">
-              <span class="car-card-badge">Pas binnen</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13l1.5-4.5A2 2 0 0 1 6.4 7h11.2a2 2 0 0 1 1.9 1.5L21 13"/><path d="M3 13h18v4a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1H7v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-4Z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
-            </div>
-            <div class="car-card-body">
-              <h3>Škoda Fabia 1.0 TSI</h3>
-              <ul class="car-card-meta">
-                <li>2020</li><li>41.000 km</li><li>Benzine</li><li>Handgeschakeld</li>
-              </ul>
-              <div class="car-card-footer">
-                <span class="car-card-price">€ 13.750</span>
-                <a class="btn btn-primary" style="padding:0.55rem 1rem;" href="contact.html">Informeer</a>
-              </div>
-            </div>
-          </article>
-          <!-- Voorbeeldadvertentie 4 -->
-          <article class="card">
-            <div class="car-card-media">
-              <span class="car-card-badge">Zuinig</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13l1.5-4.5A2 2 0 0 1 6.4 7h11.2a2 2 0 0 1 1.9 1.5L21 13"/><path d="M3 13h18v4a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1H7v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-4Z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
-            </div>
-            <div class="car-card-body">
-              <h3>Toyota Yaris Hybrid</h3>
-              <ul class="car-card-meta">
-                <li>2019</li><li>72.000 km</li><li>Hybride</li><li>Automaat</li>
-              </ul>
-              <div class="car-card-footer">
-                <span class="car-card-price">€ 15.950</span>
-                <a class="btn btn-primary" style="padding:0.55rem 1rem;" href="contact.html">Informeer</a>
-              </div>
-            </div>
-          </article>
-          <!-- Voorbeeldadvertentie 5 -->
-          <article class="card">
-            <div class="car-card-media">
-              <span class="car-card-badge">Ruime kofferbak</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13l1.5-4.5A2 2 0 0 1 6.4 7h11.2a2 2 0 0 1 1.9 1.5L21 13"/><path d="M3 13h18v4a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1H7v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-4Z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
-            </div>
-            <div class="car-card-body">
-              <h3>Ford Focus Wagon 1.0 EcoBoost</h3>
-              <ul class="car-card-meta">
-                <li>2017</li><li>102.000 km</li><li>Benzine</li><li>Handgeschakeld</li>
-              </ul>
-              <div class="car-card-footer">
-                <span class="car-card-price">€ 10.450</span>
-                <a class="btn btn-primary" style="padding:0.55rem 1rem;" href="contact.html">Informeer</a>
-              </div>
-            </div>
-          </article>
-          <!-- Voorbeeldadvertentie 6 -->
-          <article class="card">
-            <div class="car-card-media">
-              <span class="car-card-badge">Compact</span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 13l1.5-4.5A2 2 0 0 1 6.4 7h11.2a2 2 0 0 1 1.9 1.5L21 13"/><path d="M3 13h18v4a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1H7v1a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-4Z"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/></svg>
-            </div>
-            <div class="car-card-body">
-              <h3>Peugeot 208 1.2 PureTech</h3>
-              <ul class="car-card-meta">
-                <li>2021</li><li>28.500 km</li><li>Benzine</li><li>Handgeschakeld</li>
-              </ul>
-              <div class="car-card-footer">
-                <span class="car-card-price">€ 16.750</span>
-                <a class="btn btn-primary" style="padding:0.55rem 1rem;" href="contact.html">Informeer</a>
-              </div>
-            </div>
-          </article>
-        </div>
+        <div class="grid grid-3" data-reveal id="all-cars"></div>
 
         <div class="cta-band" style="margin-top:var(--space-5); background:var(--color-muted); color:var(--color-foreground);" data-reveal>
           <div>
@@ -211,5 +108,7 @@
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/cars.js"></script>
+  <script>renderCars('#all-cars', { ctaLabel: 'Informeer', ctaHref: 'contact.html' });</script>
 </body>
 </html>
